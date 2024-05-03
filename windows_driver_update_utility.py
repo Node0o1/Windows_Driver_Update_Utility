@@ -38,7 +38,7 @@ def get_err(stdout) -> str:
     return 'Error finding reason for failure'
 
 #install/update driver, log errors to file
-def update(inf_file) -> None:
+def update(inf_file) -> int:
     inf: str = inf_file.split('/')[-1].removesuffix('.inf')
     print(f'Checking {inf} for updates...')
     try: 
