@@ -1,5 +1,5 @@
 # Windows_Driver_Update_Utility
-Update all drivers in Windows OS.
+Install/Update drivers in Windows OS.
 > Does not download anything. Only install/updates .inf driver configuration file that are already located within the C:\\Windows\\System32\\DriverStore\\ directory.
 > This does not create a restore point. It is recoended to create a system restore point that you can revert to in case of confilct.
 > There is a C ++ version that I am working on with much more functionality. The c++ version currently supports creating a system restore point autonomously.
