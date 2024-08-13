@@ -1,5 +1,5 @@
 # Windows_Driver_Update_Utility
-####type: terminal-application
+#### type: terminal-application
 
 ## Description
 Install/Update drivers in Windows OS and runs the SystemFileChecker (sfc) tool to verify integrity of system files.
